@@ -1187,7 +1187,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town23";
-			init="nullReturn = [this, ""Kabinino"", resistance, 100] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Kabinino"", resistance, 100,""Town48""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item24
 		{
@@ -1341,7 +1341,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town37";
-			init="nullReturn = [this, ""Gvozdno"", resistance, 200] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Gvozdno"", resistance, 200,""Town4""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item38
 		{
@@ -1352,7 +1352,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town38";
-			init="nullReturn = [this, ""Devils Castle"", resistance, 150] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Devils Castle"", resistance, 150,""Town34""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item39
 		{
@@ -1363,7 +1363,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town39";
-			init="nullReturn = [this, ""Olsha"", resistance, 50,""Town40""] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Olsha"", resistance, 50] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item40
 		{
@@ -1374,7 +1374,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town40";
-			init="nullReturn = [this, ""Krasonostav"", resistance, 100,""Town39""] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Krasonostav"", resistance, 100] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item41
 		{
@@ -1462,7 +1462,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Town48";
-			init="nullReturn = [this, ""Stary Sobor"", resistance, 200] execVM ""Common\Init\Init_Location.sqf""";
+			init="nullReturn = [this, ""Stary Sobor"", resistance, 500,""Town16""] execVM ""Common\Init\Init_Location.sqf""";
 		};
 		class Item49
 		{
