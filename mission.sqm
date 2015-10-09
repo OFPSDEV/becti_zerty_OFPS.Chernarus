@@ -30,7 +30,7 @@ class Mission
 	randomSeed=7374927;
 	class Intel
 	{
-		briefingName="BECTI - Zerty - OFPS CHERNARUS";
+		briefingName="BECTI-Zrty-OFPS CHERNARUS (Join info on ofps.net)";
 		overviewText="By Benny - Adapted from OFP era MFCTI (Mike Melvin)";
 		resistanceWest=0;
 		timeOfChanges=24720;
