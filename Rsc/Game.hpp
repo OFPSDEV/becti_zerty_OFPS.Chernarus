@@ -4,11 +4,11 @@ respawnDelay = 10;
 respawnDialog = false;
 
 //--- Require briefing.html to show up.
-onLoadMission = "BECTI - Zerty - OFPS CHERNARUS";
+onLoadMission = "BECTI - Zerty - OFPS";
 onLoadMissionTime = false;
-onLoadName = "BECTI - Zerty - OFPS CHERNARUS";
+onLoadName = "BECTI - Zerty - OFPS";
 
-briefingName = "BECTI - Zerty - OFPS CHERNARUS";
+briefingName = "BECTI - Zerty - OFPS";
 
 //--- ArmA 3 Specifics
 dev = "Benny";

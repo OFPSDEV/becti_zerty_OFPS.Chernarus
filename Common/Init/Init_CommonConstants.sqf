@@ -460,7 +460,7 @@ with missionNamespace do {
  */
 
 //--- Vehicles: Misc
-CTI_VEHICLES_RETEXTURE = ["I_Heli_Transport_02_F", "B_APC_Tracked_01_CRV_F"]; //--- Vehicles to retexture with basic skins, ss83 
+CTI_VEHICLES_RETEXTURE = ["I_Heli_Transport_02_F", "B_APC_Tracked_01_CRV_F", "B_MBT_01_mlrs_F"]; //--- Vehicles to retexture with basic skins, ss83 
 CTI_MR_RETEXTURE = ["I_Heli_light_03_unarmed_F"]; //ss83 mobile respawn retexture custom skins
 CTI_AFIGHTER_RETEXTURE = ["I_Plane_Fighter_03_AA_F"]; //ss83 air superiority asset with custom skins
 
@@ -562,9 +562,14 @@ CTI_GC_DELAY_STATIC = 60;
 CTI_GC_DELAY_BUILDING = 30;
 
 // --- Zerty was here
+
+
+CTI_HALO_COOLDOWN = 20*60;
+CTI_HALO_LASTTIME=-CTI_HALO_COOLDOWN;
 CTI_HALO_ALTITUDE = 2000;
-CTI_HALO_RATIO = .5;
-CTI_UPGRADE_RATIO=if !(MADE_FOR_STRATIS) then {6} else {2};
+CTI_HALO_RATIO = 3;
+CTI_UPGRADE_RATIO=if !(MADE_FOR_STRATIS) then {7} else {2};
+
 
 
 CTI_VOTE_RATIO=0.51;

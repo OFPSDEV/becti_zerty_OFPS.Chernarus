@@ -48,6 +48,7 @@ ATM_Jump_mapclick = if(true) then{
 	'];
 };
 
+
 _target = player;
 _loadout=[_target] call Getloadout;
 
@@ -100,4 +101,5 @@ if(!alive _target) then {
 deleteMarker "mkr_halo";
 hint parseText "<t size='1.3' color='#2394ef'>HALO JUMP</t><br /><br />GEAR LOADED <br />";
 sleep 3;
+if (alive _target) then {CTI_HALO_LASTTIME=time;};
 hintsilent "";
